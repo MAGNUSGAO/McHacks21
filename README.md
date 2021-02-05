@@ -23,7 +23,7 @@ Libraries used: `TFLearn`, `Tensorflow`, `Numpy`
   3. AWS EC2 was chosen at the end, since its console is similar to Mac's Terminal. 
 
 ## Side Note: Useful Commands
-`sudo service nginx restart` to restart nginx
+`sudo service nginx restart` to restart nginx\n
 `sudo service gunicorn3 restart` to restart gunicorn3
 `/etc/nginx/sites-enabled` is some of the places where we need to change the Nginx configuration after receiving a new IP address
 
