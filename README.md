@@ -21,11 +21,14 @@ Libraries used: `TFLearn`, `Tensorflow`, `Numpy`
   1. The first option was Google Cloud. However, deploying on App Engine is more complicated than delploying using other platforms. Considering the complexity of the project, the team decided to use other platforms. (Special thanks to GCP and GCP engineers for supporting MLH!)
   2. The second option was PythonAnywhere. It allows 500MB of hard disk space, which wasn't enough to install our virtual environment.
   3. AWS EC2 was chosen at the end, since its console is similar to Mac's Terminal. 
+  
 
 ## Side Note: Useful Commands
-`sudo service nginx restart` to restart nginx\n
-`sudo service gunicorn3 restart` to restart gunicorn3
-`/etc/nginx/sites-enabled` is some of the places where we need to change the Nginx configuration after receiving a new IP address
+- `sudo service nginx restart` to restart nginx
+- `sudo service gunicorn3 restart` to restart gunicorn3
+- `/etc/nginx/sites-enabled` is some of the places where we need to change the Nginx configuration after receiving a new IP address
+- .socks file from Gunicorn
+
 
 
 # To Work On:
